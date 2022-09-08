@@ -8,7 +8,7 @@ import VideoDetail from './VideoDetail';
 
 const App = () => {
     const [selectedVideo, setSelectedVideo] = useState(null);
-    const [videos, search] = useVideos('Tilia Lan');
+    const [videos, search] = useVideos('Cute Cats');
 
     useEffect(() => {
         setSelectedVideo(videos[0]);
